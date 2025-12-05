@@ -1,4 +1,4 @@
-# Windows PowerShell: ScreenFetch + Update & Upgrade Commands
+# Windows PowerShell Automated ScreenFetch Setup with Update & Upgrade Commands for Daily Use
 A simple and clean setup to make your PowerShell look cooler with **screenfetch**, while adding Linux-inspired commands like `update` & `upgrade` for Windows.
 
 <img width="1118" height="627" alt="image" src="https://github.com/user-attachments/assets/c5afd22e-852f-45f7-8a26-6ed129b28316" />
@@ -82,3 +82,9 @@ This setup adds:
 * Automatic system info display
 * Linux-style update commands
 * Clean PowerShell customization
+
+## Authors
+- [Muhammad Uzair](https://www.github.com/uzairshahidgithub)
+
+## Support
+For support, email uzairrshahid@gmail.com or join our Discord Community.
