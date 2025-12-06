@@ -8,17 +8,17 @@ A simple and clean setup to make your PowerShell look cooler with **screenfetch*
 * Internet connection (first-time install of update module)
   
 ## Step 1: Ensure ScreenFetch Works
-If you can already type `screenfetch` and it runs normally, great move to Step 2.
-
-If screenfetch is **not installed**, install using:
-
+If you can already type `screenfetch` and it runs normally, great move to Step 2. If screenfetch is **not installed**, install using:
 ```powershell
-Invoke-WebRequest https://raw.githubusercontent.com/KittyKatt/screenFetch/master/screenfetch-dev -OutFile "$env:USERPROFILE\screenfetch.ps1"
+Install-Module -Name windows-screenfetch
 ```
-Optionally assign alias to call it simply:
-
+Verification:
 ```powershell
-Set-Alias screenfetch "$env:USERPROFILE\screenfetch.ps1"
+# Check if installed
+Get-Command screenfetch
+
+# Test it
+screenfetch
 ```
 
 ## Step 2: Create / Open PowerShell Profile
