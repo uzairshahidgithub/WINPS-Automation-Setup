@@ -89,8 +89,12 @@ This setup adds:
 * Linux-style update commands
 * Clean PowerShell customization
 
+## References
+- JulianChow94 [Windows-screenFetch](https://github.com/JulianChow94/Windows-screenfetch)
+- [Powershell Gallery Package](https://www.powershellgallery.com/packages/windows-screenfetch/1.0.2)
+
 ## Authors
 - [Muhammad Uzair](https://www.github.com/uzairshahidgithub)
 
 ## Support
-For support, email uzairrshahid@gmail.com or join our Discord Community.
+For support, email uzairrshahid@gmail.com or join our [Discord Community Codemo Teams](https://linktr.ee/codemoteams).
