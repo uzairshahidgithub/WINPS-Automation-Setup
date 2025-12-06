@@ -42,9 +42,7 @@ notepad $PROFILE
 Paste this entire block:
 ```powershell
 try { screenfetch } catch {}
-
 $updateModuleLoaded = $false
-
 function update {
     if (-not $updateModuleLoaded) {
         if (-not (Get-Module -ListAvailable PSWindowsUpdate)) {
@@ -55,7 +53,6 @@ function update {
     }
     Get-WindowsUpdate
 }
-
 function upgrade {
     if ([Security.Principal.WindowsPrincipal]::new(
         [Security.Principal.WindowsIdentity]::GetCurrent()
@@ -66,6 +63,15 @@ function upgrade {
         Write-Host "Run PowerShell as Administrator!" -ForegroundColor Red
     }
 }
+```
+## Step 4: Install the module:
+```powershell 
+Install-Module PSWindowsUpdate -Force -Scope CurrentUser
+```
+## Step 5: Load your profile:
+Reload profile to activate commands
+```powershell
+. $PROFILE
 ```
 Save & Close then **restart PowerShell**.
 ## How To Use
