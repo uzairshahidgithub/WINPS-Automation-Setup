@@ -6,7 +6,7 @@ A simple and clean setup to make your PowerShell look cooler with **screenfetch*
 ## Requirements
 * Windows PowerShell
 * Internet connection (first-time install of update module)
-* Use Setup in Administrator for the first time.
+* ⚠ Use Update/Upgrade Commands and Setup in Administrator.
   
 ## Step 1: Ensure ScreenFetch Works
 If you can already type `screenfetch` and it runs normally, great move to Step 2. If screenfetch is **not installed**, install using:
@@ -82,7 +82,7 @@ Save & Close then **restart PowerShell**.
 | `update`      | Check for Windows updates            |
 | `upgrade`     | Install updates & reboot if required |
 
-⚠ upgrade must be run in **Administrator PowerShell**
+⚠ Make Sure you run in **Administrator PowerShell**
 
 ## Summary
 This setup adds:
